@@ -1,0 +1,13 @@
+$color: #f0f;
+
+body
+{
+	background: $color;
+	color: black;
+	text-align: left;
+	
+	a
+	{
+		color: lighten($color, 20%);
+	}
+}
